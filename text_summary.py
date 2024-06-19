@@ -35,11 +35,7 @@ def summarize(text, num_sentences=5):
 
 # Example Usage
 text = """
-Artificial intelligence (AI) is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals. Leading AI textbooks define the field as the study of "intelligent agents" which are systems that can reason, learn, and act autonomously.
-
-AI research has been highly successful in developing effective techniques for solving a wide range of problems, from game playing to medical diagnosis.
-
-Some of the most successful AI applications are in the field of machine learning. Machine learning algorithms are trained on a large amount of data and are able to learn and improve their performance on a specific task. For example, machine learning algorithms are used to recommend products to customers on online shopping websites.
+The Great Barrier Reef is the world's largest coral reef system composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometres (1,400 mi) over an area of approximately 344,400 square kilometres (133,000 sq mi). The reef is located in the Coral Sea, off the coast of Queensland, Australia. The Great Barrier Reef can be seen from outer space and is the world's biggest single structure made by living organisms. This reef structure is composed of and built by billions of tiny organisms, known as coral polyps. It supports a wide diversity of life and was selected as a World Heritage Site in 1981. CNN labelled it one of the seven natural wonders of the world.  Unfortunately, the Great Barrier Reef is facing numerous environmental threats such as pollution and climate change.
 """
 
 summary = summarize(text)
